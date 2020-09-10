@@ -40,7 +40,7 @@ namespace MoneyGame.Logic
         {
             if (IsNewMineFound())
             {
-                State.Events.Add(new Event(today, "Новый рудник был открыт! Обвал на рынке золота!"));
+                State.Events.Add(new Event(today, "Новый рудник был открыт! Обвал!"));
                 return random.NextDouble() * -0.15;
             }
 
