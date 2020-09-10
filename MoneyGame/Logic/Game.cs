@@ -5,7 +5,7 @@ namespace MoneyGame.Logic
 {
     public class Game
     {
-        public const int MaxRatesInHistory = 30;
+        public const int MaxRatesInHistory = 31;
         private readonly Random random = new Random();
 
         public Game(Player player, DateTime startDate)
